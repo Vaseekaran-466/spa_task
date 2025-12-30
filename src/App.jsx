@@ -11,6 +11,8 @@ import Navbar from './Navbar'
 import About from './About'
 import Contact from './Contact'
 import Footer from './Footer'
+import Logic from './Logic'
+import Palindrome from './Palindrome'
  const App = () => {
   return (
     <>
@@ -23,7 +25,7 @@ import Footer from './Footer'
 
   {/* <Formss/> */}
   {/* <Review/> */}
-     <Navbar/>
+     {/* <Navbar/>
      <Home/>
     <About/>
     <Contact/>
@@ -32,9 +34,12 @@ import Footer from './Footer'
       <Route>
       
       </Route>
-    </Routes>
+    </Routes> */}
   
+    <Logic/>
 
+
+    <Palindrome/>
     </>
   )
 }
